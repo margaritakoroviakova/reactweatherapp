@@ -1,13 +1,123 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+h1 {
+  text-align: center;
+  color: #9932cc;
+  font-family: "Aboreto", cursive;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h2 {
+  text-align: center;
+  color: #455d7a;
+  font-family: "Roboto", sans-serif;
+}
+
+.time {
+  display: block;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  margin-right: 340px;
+  color: #455d7a;
+}
+
+.form-control {
+  display: block;
+
+  font-weight: bold;
+  color: #f95959;
+  border: 1px solid #233142;
+}
+
+.primary {
+  background-color: #233142;
+  border: 1px solid #233142;
+}
+
+.input {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  margin-left: 123px;
+}
+
+.primary:hover {
+  background-color: #233142;
+  border: 1px solid #233142;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 25px;
+  font-family: "Libre Baskerville", serif;
+  color: #f95959;
+}
+
+.countries {
+  margin-left: 637px;
+  font-family: "Libre Baskerville", serif;
+  color: #f95959;
+}
+
+.parameters {
+  color: #c9c7c7;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.container {
+  color: #5a6275;
+  font-family: "Roboto", sans-serif;
+}
+
+.temperature {
+  margin-left: 340px;
+  font-size: 40px;
+  color: #c9c7c7;
+}
+
+.cel {
+  font-size: 20px;
+  color: #455d7a;
+}
+
+.iconic {
+  display: block;
+  margin-left: 350px;
+}
+
+.git {
+  display: block;
+  text-align: center;
+  margin-top: 12px;
+  color: #455d7a;
+}
+
+.git:hover {
+  color: #455d7a;
+}
+
+.weather {
+  line-height: 35px;
+}
+
+h4 {
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  color: #f95959;
+}
+
+.day {
+  color: #455d7a;
+  margin-left: 200px;
+}
+
+.degrees {
+  color: #c9c7c7;
+  margin-left: 190px;
+}
+
+img {
+  display: block;
+  margin-left: 160px;
 }
