@@ -37,7 +37,7 @@ h2 {
 }
 
 button {
-  margin-left: 123px;
+  margin-right: 90px;
 }
 
 .primary:hover {
@@ -79,6 +79,7 @@ h3 {
 .cel {
   font-size: 20px;
   color: #455d7a;
+  margin-right: 417px;
 }
 
 .iconic {
