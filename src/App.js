@@ -61,6 +61,7 @@ function App() {
       >
         My lovely code
       </a>
+      <a className='gitTwo' href='https://github.com/margaritakoroviakova/reactweatherapp'>This was code by me</a>
     </div>
   );
 }
