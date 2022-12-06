@@ -1,8 +1,14 @@
-h3 {
+h2 {
   text-align: center;
-    margin-top: 25px;
-    font-family: "Libre Baskerville", serif;
-    color: #f95959;
+  color: #455d7a;
+  font-family: "Roboto",sans-serif;
+}
+
+h3, h4 {
+  text-align: center;
+  margin-top: 25px;
+  font-family: "Libre Baskerville", serif;
+  color: #f95959;
 }
 
 .temperature {

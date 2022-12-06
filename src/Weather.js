@@ -2,6 +2,7 @@ import './App.css';
 import axios from "axios";
 import { useState } from 'react';
 import WeatherInfo from "./WeatherInfo";
+import DateToday from "./DateToday";
 
 export default function Weather(props) {
 let [weather, setWeather] = useState({ready:false});
@@ -11,7 +12,9 @@ let [city, setCity] = useState(props.defaultCity);
 function weatherResponse (response) {
   setWeather({
   ready: true,
+  date: new Date(response.data.time*1000),
   city: response.data.city,
+  country: response.data.country,
   temperature: response.data.temperature.current,
   humidity: response.data.temperature.humidity,
   wind: response.data.wind.speed,
@@ -37,6 +40,7 @@ function searching () {
 if (weather.ready) {
   return (
     <div className="App">
+      <h2><DateToday date={weather.date}/></h2>
           <form className="form" id="searching-form" onSubmit={handleSubmit}>
             <div className="row">
               <div className="col-7 input">
