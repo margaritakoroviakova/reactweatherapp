@@ -1,73 +1,8 @@
-h1 {
-  text-align: center;
-  color: #9932cc;
-  font-family: "Aboreto", cursive;
-}
-
-h2 {
-  text-align: center;
-  color: #455d7a;
-  font-family: "Roboto", sans-serif;
-}
-
-.time {
-  display: block;
-  font-size: 25px;
-  font-family: "Roboto", sans-serif;
-  margin-right: 340px;
-  color: #455d7a;
-}
-
-.form-control {
-  display: block;
-
-  font-weight: bold;
-  color: #f95959;
-  border: 1px solid #233142;
-}
-
-.primary {
-  background-color: #233142;
-  border: 1px solid #233142;
-}
-
-.input {
-  display: flex;
-  justify-content: flex-end;
-}
-
-button {
-  margin-right: 90px;
-}
-
-.primary:hover {
-  background-color: #233142;
-  border: 1px solid #233142;
-}
-
 h3 {
   text-align: center;
-  margin-top: 25px;
-  font-family: "Libre Baskerville", serif;
-  color: #f95959;
-}
-
-.countries {
-  margin-left: 637px;
-  font-family: "Libre Baskerville", serif;
-  color: #f95959;
-}
-
-.parameters {
-  color: #c9c7c7;
-  font-family: "Roboto", sans-serif;
-  text-transform: capitalize;
-  font-size: 20px;
-}
-
-.container {
-  color: #5a6275;
-  font-family: "Roboto", sans-serif;
+    margin-top: 25px;
+    font-family: "Libre Baskerville", serif;
+    color: #f95959;
 }
 
 .temperature {
@@ -76,10 +11,12 @@ h3 {
   color: #c9c7c7;
 }
 
-.cel {
+.parameters {
+  color: #c9c7c7;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
   font-size: 20px;
-  color: #455d7a;
-  margin-right: 417px;
+  margin-right: 200px;
 }
 
 .iconic {
@@ -87,10 +24,9 @@ h3 {
   margin-left: 350px;
 }
 
-.git, .gitTwo {
+.git, .gitTwo{
   display: block;
   text-align: center;
-  margin-top: 12px;
   color: #455d7a;
 }
 
@@ -98,27 +34,30 @@ h3 {
   color: #455d7a;
 }
 
-.weather {
-  line-height: 35px;
-}
-
-h4 {
-  text-align: center;
-  font-family: "Libre Baskerville", serif;
-  color: #f95959;
-}
-
-.day {
+.gitTwo:hover {
   color: #455d7a;
-  margin-left: 200px;
 }
 
-.degrees {
-  color: #c9c7c7;
-  margin-left: 190px;
-}
-
-img {
+.formControl {
   display: block;
-  margin-left: 160px;
+  font-weight: bold;
+  margin-left: 500px;
+  color: #f95959;
+  border: 1px solid #233142;
 }
+
+.primary {
+  margin-right: 300px;
+  background-color: #233142;
+  border: 1px solid #233142;
+}
+
+.primary:hover {
+  background-color: #233142;
+  border: 1px solid #233142;
+}
+
+
+
+
+
