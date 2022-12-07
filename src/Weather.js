@@ -15,6 +15,7 @@ function weatherResponse (response) {
   date: new Date(response.data.time*1000),
   city: response.data.city,
   country: response.data.country,
+  iconUrl: `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`,
   temperature: response.data.temperature.current,
   humidity: response.data.temperature.humidity,
   wind: response.data.wind.speed,
@@ -43,10 +44,10 @@ if (weather.ready) {
       <h2><DateToday date={weather.date}/></h2>
           <form className="form" id="searching-form" onSubmit={handleSubmit}>
             <div className="row">
-              <div className="col-7 input">
+              <div className="col-2 input">
                 <input
                   type="text"
-                  className="formControl"
+                  className="form-control"
                   id="city"
                   placeholder="Enter a city"
                   autoComplete="off"
