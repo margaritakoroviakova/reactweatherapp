@@ -17,4 +17,9 @@ export default function DateToday (props) {
     return (
         <div>{day} {hours}:{minutes}</div>
     );
+    if (minutes < 10) {
+        return (
+        0 + {minutes}
+        );
+    }
 } 
