@@ -50,7 +50,7 @@ if (weather.ready) {
                   className="form-control"
                   id="city"
                   placeholder="Enter a city"
-                  autoComplete='off'
+                  autoComplete="off"
                   onChange={showCity}
                 />
               </div>
