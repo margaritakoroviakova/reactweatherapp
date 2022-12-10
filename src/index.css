@@ -1,16 +1,18 @@
 .form-control {
   margin-top: 7px;
   display: block;
-  margin-left: 530px;
   font-weight: bold;
   color: #f95959;
   border: 1px solid #233142;
 }
 
+form {
+  margin: 0 auto;
+  max-width: 400px;
+}
 
 .primary {
   margin-top: 7px;
-  margin-left: 550px;
   background-color: #233142;
   border: 1px solid #233142;
 }
@@ -51,7 +53,7 @@ h3, h4 {
   font-family: "Roboto", sans-serif;
   text-transform: capitalize;
   font-size: 20px;
-  margin-right: 250px;
+  margin-right: 300px;
 }
 
 .iconic {

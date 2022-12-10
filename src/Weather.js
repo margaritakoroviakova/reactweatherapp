@@ -44,7 +44,7 @@ if (weather.ready) {
       <h2><DateToday date={weather.date}/></h2>
           <form className="form" id="searching-form" onSubmit={handleSubmit}>
             <div className="row">
-              <div className="col-3 input">
+              <div className="col-8 input">
                 <input
                   type="text"
                   className="form-control"
