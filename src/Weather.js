@@ -48,7 +48,6 @@ if (weather.ready) {
                 <input
                   type="text"
                   className="form-control"
-                  id="city"
                   placeholder="Enter a city"
                   autoComplete="off"
                   onChange={showCity}
