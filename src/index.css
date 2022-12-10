@@ -29,7 +29,7 @@ h2 {
   font-family: "Roboto",sans-serif;
 }
 
-h3, h4 {
+h3 {
   text-align: center;
   margin-top: 13px;
   font-family: "Libre Baskerville", serif;
@@ -46,6 +46,14 @@ h3, h4 {
   margin-left: 300px;
   font-size: 35px;
   color: #c9c7c7;
+  font-family: "Roboto", sans-serif;
+}
+
+.cel {
+  margin-left: 5px;
+  font-size: 20px;
+  color: #c9c7c7;
+  font-family: "Roboto", sans-serif;
 }
 
 .parameters {
