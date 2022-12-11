@@ -76,7 +76,7 @@ button {
   color: #fff;
 }
 
-.git, .gitTwo{
+.git {
   display: block;
   text-align: center;
   color: #455d7a;
@@ -86,9 +86,7 @@ button {
   color: #455d7a;
 }
 
-.gitTwo:hover {
-  color: #455d7a;
-}
+
 
 
 
