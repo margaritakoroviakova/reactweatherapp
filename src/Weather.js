@@ -59,6 +59,7 @@ if (weather.ready) {
             </div>
           </form>
           <WeatherInfo data={weather}/>
+          <a className='git' href='https://github.com/margaritakoroviakova/reactweatherapp' alt="">My code on GitHub</a>
     </div>
   );
 } else {
