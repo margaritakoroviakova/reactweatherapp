@@ -70,6 +70,12 @@ h3 {
   margin-left: 210px;
 }
 
+button {
+  border: 1px solid #233142;;
+  background-color: #233142;
+  color: #fff;
+}
+
 .git, .gitTwo{
   display: block;
   text-align: center;
