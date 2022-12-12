@@ -1,8 +1,6 @@
 import React from "react";
 import WeatherUnit from "./WeatherUnit";
 
-
-
 export default function WeatherInfo (props) {
 
     return (

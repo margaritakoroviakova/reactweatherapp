@@ -2,6 +2,7 @@ import './App.css';
 import axios from "axios";
 import { useState } from 'react';
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 import DateToday from "./DateToday";
 
 export default function Weather(props) {
@@ -20,6 +21,7 @@ function weatherResponse (response) {
   humidity: response.data.temperature.humidity,
   wind: response.data.wind.speed,
   description: response.data.condition.description,
+  coordinates: response.data.coordinates
   });
 } 
 
@@ -59,6 +61,7 @@ if (weather.ready) {
             </div>
           </form>
           <WeatherInfo data={weather}/>
+          <WeatherForecast coordinates={weather.coordinates}/>
           <a className='git' href='https://github.com/margaritakoroviakova/reactweatherapp' alt="">My code on GitHub</a>
     </div>
   );

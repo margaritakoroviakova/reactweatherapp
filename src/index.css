@@ -77,6 +77,7 @@ button {
 }
 
 .git {
+  margin-top: 100px;
   display: block;
   text-align: center;
   color: #455d7a;
