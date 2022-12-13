@@ -1,18 +1,17 @@
 import axios from "axios";
-import React from "react";
+import React, { useState } from "react";
 
 export default function WeatherForecast (props) {
+    let [loaded, setLoaded] = useState(false);
+    let [forecast, setForecast] = useState(null);
 
     function forecastResponse (response) {
-    console.log(response.data)
+    setForecast(response.data.daily);
+    setLoaded(true);
     }
-
-    let apiKey = "0f037oa9b63a1bde26ff4t7c8b350ada";
-    let longitude = props.coordinates.longitude;
-    let latitude = props.coordinates.latitude;
-    let apiUrl = `https://api.shecodes.io/weather/v1/current?lon=${longitude}&lat=${latitude}&key=${apiKey}`;
-    axios.get(apiUrl).then(forecastResponse);
-
+    
+    if (loaded) {
+    console.log(forecast)
     return (
     <div className="WeatherForecast">
         <div className="row">
@@ -29,4 +28,13 @@ export default function WeatherForecast (props) {
         </div>
     </div>
     );
+    } else {
+    let apiKey = "0f037oa9b63a1bde26ff4t7c8b350ada";
+    let longitude = props.coordinates.longitude;
+    let latitude = props.coordinates.latitude;
+    let apiUrl = `https://api.shecodes.io/weather/v1/current?lon=${longitude}&lat=${latitude}&key=${apiKey}`;
+    axios.get(apiUrl).then(forecastResponse);
+
+    return null;
+    }
 }
