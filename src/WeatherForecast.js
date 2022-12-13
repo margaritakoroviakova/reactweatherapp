@@ -12,15 +12,12 @@ export default function WeatherForecast (props) {
     }
     
     if (loaded) {
-    console.log(forecast);
     return (
     <div className="WeatherForecast">
         <div className="row">
-            <div className="col">
-                <WeatherForecastDay forecast={forecast}/>
+                <WeatherForecastDay forecast={forecast[0]}/>
             </div>
         </div>
-    </div>
     );
     } else {
     let apiKey = "0f037oa9b63a1bde26ff4t7c8b350ada";
