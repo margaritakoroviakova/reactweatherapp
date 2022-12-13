@@ -21,7 +21,6 @@ function weatherResponse (response) {
   humidity: response.data.temperature.humidity,
   wind: response.data.wind.speed,
   description: response.data.condition.description,
-  coordinates: response.data.coordinates
   });
 } 
 
@@ -61,7 +60,7 @@ if (weather.ready) {
             </div>
           </form>
           <WeatherInfo data={weather}/>
-          <WeatherForecast coordinates={weather.coordinates}/>
+          <WeatherForecast city={city}/>
           <a className='git' href='https://github.com/margaritakoroviakova/reactweatherapp' alt="">My code on GitHub</a>
     </div>
   );
