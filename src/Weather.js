@@ -60,7 +60,7 @@ if (weather.ready) {
             </div>
           </form>
           <WeatherInfo data={weather}/>
-          <WeatherForecast city={city}/>
+          <WeatherForecast city={weather.city}/>
           <a className='git' href='https://github.com/margaritakoroviakova/reactweatherapp' alt="">My code on GitHub</a>
     </div>
   );
