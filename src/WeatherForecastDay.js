@@ -19,8 +19,8 @@ function day() {
 }
 
 return (
-<div className="forecastDay">
-<div>{day()}</div>
+<div className="forecastDays">
+<div className="forecastDay">{day()}</div>
 <div><img src={props.data.condition.icon_url} alt=""></img></div>
 <div className="forecastTemperature">
 <span className="tempMax">{maxTemp()}°</span>

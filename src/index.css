@@ -26,12 +26,12 @@ h2 {
   margin-top: 10px;
   text-align: center;
   color: #455d7a;
-  font-family: "Roboto",sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h3 {
   text-align: center;
-  margin-top: 13px;
+  margin-top: 20px;
   font-family: "Libre Baskerville", serif;
   color: #f95959;
 }
@@ -42,7 +42,6 @@ h3 {
 }
 
 .temperature {
-  margin-top: -5px;
   margin-left: 300px;
   font-size: 35px;
   color: #c9c7c7;
@@ -50,8 +49,7 @@ h3 {
 }
 
 .cel {
-  margin-left: 5px;
-  font-size: 20px;
+  font-size: 25px;
   color: #c9c7c7;
   font-family: "Roboto", sans-serif;
 }
@@ -70,10 +68,18 @@ h3 {
   margin-left: 210px;
 }
 
-button {
-  border: 1px solid #233142;;
-  background-color: #233142;
-  color: #fff;
+.forecastDays {
+  margin-top: 15px;
+}
+
+.forecastDay {
+  color: #455d7a;
+  font-family: "Roboto", sans-serif;
+}
+
+.forecastTemperature {
+  color: #c9c7c7;
+    font-family: "Roboto", sans-serif;
 }
 
 .git {
